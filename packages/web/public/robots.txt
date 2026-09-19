@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+Host: https://2048classic.netlify.app/
+Sitemap: https://2048classic.netlify.app/sitemap.xml

@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+/* Themes */
+body.theme-classic {
+  --bg-primary: #faf8ef;
+  --board-bg: #bbada0;
+  --cell-bg: rgba(238, 228, 218, 0.35);
+  --text-main: #776e65;
+}
+
+body.theme-dark {
+  --bg-primary: #090d16;
+  --board-bg: #131b2e;
+  --cell-bg: rgba(255, 255, 255, 0.05);
+  --text-main: #f1f5f9;
+}
+
+body.theme-neon {
+  --bg-primary: #05050f;
+  --board-bg: #0f1026;
+  --cell-bg: rgba(139, 92, 246, 0.1);
+  --text-main: #f8fafc;
+}

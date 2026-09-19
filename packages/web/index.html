@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <title>2048 Game — Play Classic 2048 Online Free with AI Hints & Undo</title>
+    <meta name="description" content="Play the original 2048 puzzle game online for free. Slide tiles, merge numbers, and reach the 2048 tile! Featuring AI hints, unlimited undo, 3x3 to 6x6 grids, dark mode, and offline play." />
+    <meta name="keywords" content="2048, 2048 game, play 2048, 2048 puzzle, 2048 online, 2048 unblocked, 2048 classic, tile game, number puzzle, sliding block puzzle, 2048 solver" />
+    <meta name="author" content="Shoaib M. Arif" />
+    <link rel="author" href="https://shoaibarif.vercel.app/" />
+    <link rel="canonical" href="https://2048classic.netlify.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://2048classic.netlify.app/" />
+    <meta property="og:title" content="2048 Game — Play Classic 2048 Online Free with AI Hints & Undo" />
+    <meta property="og:description" content="Play the original 2048 puzzle game online for free. Slide tiles, merge numbers, and reach the 2048 tile! Featuring AI hints, unlimited undo, 3x3 to 6x6 grids, dark mode, and offline play." />
+    <meta property="og:image" content="https://2048classic.netlify.app/og-image.png" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://2048classic.netlify.app/" />
+    <meta name="twitter:title" content="2048 Game — Play Classic 2048 Online Free with AI Hints & Undo" />
+    <meta name="twitter:description" content="Play the original 2048 puzzle game online for free. Slide tiles, merge numbers, and reach the 2048 tile! Featuring AI hints, unlimited undo, 3x3 to 6x6 grids, dark mode, and offline play." />
+    <meta name="twitter:image" content="https://2048classic.netlify.app/og-image.png" />
+
+    <!-- Rule A: The Google Search Favicon Suite -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta name="theme-color" content="#090d16" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Rule B: Site Name Schema (Prevents "Netlify" Site Name Fallback) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://2048classic.netlify.app/#website",
+          "name": "2048 Game",
+          "alternateName": [
+            "2048 Online",
+            "2048 Classic",
+            "Play 2048",
+            "2048 App"
+          ],
+          "url": "https://2048classic.netlify.app/",
+          "inLanguage": "en-US",
+          "description": "Free, open-source 2048 puzzle game with undo, AI hints, multiple board sizes (3x3 to 6x6), dark mode, and offline play.",
+          "author": {
+            "@type": "Person",
+            "name": "Shoaib M. Arif",
+            "url": "https://shoaibarif.vercel.app/",
+            "sameAs": [
+              "https://github.com/shoaibmarif/",
+              "https://www.linkedin.com/in/shoaibmarif/"
+            ]
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "@id": "https://2048classic.netlify.app/#webapp",
+          "name": "2048 Game",
+          "url": "https://2048classic.netlify.app/",
+          "applicationCategory": "GameApplication",
+          "operatingSystem": "All",
+          "browserRequirements": "Requires JavaScript. Requires HTML5.",
+          "author": {
+            "@type": "Person",
+            "name": "Shoaib M. Arif",
+            "url": "https://shoaibarif.vercel.app/"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://2048classic.netlify.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How do you play 2048?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Use your arrow keys, WASD, or swipe on mobile to slide all tiles in one of four directions: Up, Down, Left, or Right. When two tiles with the same number touch, they merge into one with double the value (e.g., 2 + 2 = 4). Your goal is to create a tile with the number 2048!"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best strategy to win 2048?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The proven winning strategy is the Corner Strategy: pick one corner (such as bottom-left or top-left) and build your highest-value tile there. Never move away from that corner. Maintain a descending snake pattern (e.g. 1024, 512, 256, 128) across your main row."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you keep playing after reaching the 2048 tile?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! When you reach the 2048 tile, you can click 'Keep Playing' to aim for 4096, 8192, 16384, or even 131,072!"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is 2048 100% free and private?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, this version of 2048 runs 100% in your browser using local computation. No accounts, ads, or personal tracking are required."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-[#090d16] text-slate-900 dark:text-zinc-100 min-h-screen antialiased selection:bg-amber-400 selection:text-black">
+    <!-- Clean root for React mounting -->
+    <div id="root"></div>
+
+    <!-- Rule C: Zero-FOUC Pre-Rendered <noscript> SEO Block for Googlebot -->
+    <noscript>
+      <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 32px 24px; max-width: 900px; margin: 0 auto; line-height: 1.6; color: #1e293b;">
+        <h1 style="font-size: 2.25rem; font-weight: 800; margin-bottom: 12px; color: #0f172a;">2048 Game — Free Online Classic Tile Puzzle</h1>
+        <p style="font-size: 1.125rem; color: #475569; margin-bottom: 24px;">
+          Welcome to the ultimate web version of the iconic <strong>2048 puzzle game</strong>. Join matching numbered tiles, slide strategically across the grid, and reach the coveted <strong>2048 tile</strong>. Featuring AI move solver hints, undo support, multiple grid sizes (3x3, 4x4, 5x5, 6x6), dark mode, and offline gameplay.
+        </p>
+
+        <h2 style="font-size: 1.5rem; font-weight: 700; margin-top: 32px; margin-bottom: 12px; color: #0f172a;">How to Play 2048</h2>
+        <ol style="padding-left: 20px; color: #334155; margin-bottom: 24px;">
+          <li><strong>Swipe or Arrow Keys</strong>: Move all tiles on the grid in any of the four cardinal directions: Up, Down, Left, or Right.</li>
+          <li><strong>Merge Identical Numbers</strong>: When two tiles with identical numbers collide, they merge into one with double the value (2 + 2 = 4, 4 + 4 = 8, 8 + 8 = 16... up to 2048).</li>
+          <li><strong>Spawn Mechanics</strong>: After each move, a new tile (valued 2 or 4) randomly appears in an empty cell.</li>
+          <li><strong>Winning & Continuing</strong>: You win when a 2048 tile is created. Click "Keep Playing" to chase 4096, 8192, and beyond!</li>
+        </ol>
+
+        <h2 style="font-size: 1.5rem; font-weight: 700; margin-top: 32px; margin-bottom: 12px; color: #0f172a;">Master Strategies for High Scores</h2>
+        <ul style="padding-left: 20px; color: #334155; margin-bottom: 24px;">
+          <li><strong>The Corner Anchor</strong>: Keep your highest-value tile locked in one fixed corner (e.g. bottom-left).</li>
+          <li><strong>Monotonic Rows</strong>: Organize each row in decreasing order leading directly toward your corner.</li>
+          <li><strong>Minimize Dangerous Moves</strong>: Avoid swiping in the direction that pulls your highest tile away from its designated corner.</li>
+          <li><strong>Keep Spaces Open</strong>: Prioritize moves that consolidate and clear open spaces to prevent premature game over.</li>
+        </ul>
+
+        <h2 style="font-size: 1.5rem; font-weight: 700; margin-top: 32px; margin-bottom: 12px; color: #0f172a;">Frequently Asked Questions</h2>
+        <div style="margin-bottom: 16px;">
+          <h3 style="font-size: 1.1rem; font-weight: 600; color: #0f172a;">Is there an AI solver?</h3>
+          <p style="color: #475569;">Yes! This application includes an in-browser Expectimax heuristic solver that calculates and suggests the mathematically highest expected value move.</p>
+        </div>
+        <div style="margin-bottom: 16px;">
+          <h3 style="font-size: 1.1rem; font-weight: 600; color: #0f172a;">Does it work on mobile?</h3>
+          <p style="color: #475569;">Yes, the game is fully optimized for touch drag gestures on iOS Safari, Android Chrome, and all tablets.</p>
+        </div>
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
