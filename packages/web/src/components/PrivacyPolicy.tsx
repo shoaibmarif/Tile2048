@@ -101,7 +101,7 @@ export const PrivacyPolicy: React.FC = () => {
               rel="noopener noreferrer"
               className="text-amber-500 hover:underline font-semibold"
             >
-              github.com/shoaibmarif/2048
+              github.com/shoaibmarif
             </a>, explore my portfolio at{' '}
             <a
               href="https://shoaibarif.vercel.app/"

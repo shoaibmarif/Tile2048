@@ -155,7 +155,7 @@ export const Sitemap: React.FC = () => {
         {
           name: 'GitHub Source Repository',
           desc: 'Inspect the open-source TypeScript monorepo on GitHub',
-          url: 'https://github.com/shoaibmarif/2048',
+          url: 'https://github.com/shoaibmarif',
           external: true,
         },
         {
