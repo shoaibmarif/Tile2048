@@ -12,7 +12,7 @@ import {
 
 export const Sitemap: React.FC = () => {
   useEffect(() => {
-    document.title = 'Sitemap & Application Directory — 2048 Game';
+    document.title = 'Sitemap & Application Directory — Tile 2048';
     window.scrollTo(0, 0);
   }, []);
 
@@ -177,7 +177,7 @@ export const Sitemap: React.FC = () => {
           className="inline-flex items-center gap-2 text-sm font-semibold text-amber-500 hover:text-amber-600 transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to 2048 Game</span>
+          <span>Back to Tile 2048</span>
         </a>
 
         <a
@@ -201,7 +201,7 @@ export const Sitemap: React.FC = () => {
           Sitemap & Directory
         </h1>
         <p className="mt-3 text-sm sm:text-base text-slate-600 dark:text-slate-400 leading-relaxed">
-          Explore all game modes, intelligent AI solvers, visual themes, strategy guides, and documentation available in the 2048 application.
+          Explore all game modes, intelligent AI solvers, visual themes, strategy guides, and documentation available in the Tile 2048 application.
         </p>
       </header>
 
@@ -260,7 +260,7 @@ export const Sitemap: React.FC = () => {
           className="inline-flex items-center gap-2 px-8 py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-600 active:scale-95 text-white font-bold text-sm shadow-md shadow-amber-500/20 transition-all"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Return to 2048 Game</span>
+          <span>Return to Tile 2048</span>
         </a>
       </div>
     </article>

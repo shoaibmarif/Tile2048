@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "2048 Game - Classic Tile Puzzle",
+  "name": "Tile 2048 - Classic Number Puzzle",
   "version": "1.0.0",
-  "description": "Free, instant, 100% private in-browser 2048 puzzle game with AI hints and undo.",
-  "homepage_url": "https://2048classic.netlify.app/",
+  "description": "Free, instant, 100% private in-browser Tile 2048 puzzle game with AI hints and undo.",
+  "homepage_url": "https://tile2048.netlify.app/",
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Play 2048 Game",
+    "default_title": "Play Tile 2048",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",

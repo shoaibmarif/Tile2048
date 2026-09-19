@@ -31,7 +31,7 @@ export const PrivacyPolicy: React.FC = () => {
         className="inline-flex items-center gap-2 text-sm font-semibold text-amber-500 hover:text-amber-600 mb-8 transition-colors"
       >
         <ArrowLeft className="w-4 h-4" />
-        <span>Back to 2048 Game</span>
+        <span>Back to Tile 2048</span>
       </a>
 
       <header className="mb-8">
@@ -49,7 +49,14 @@ export const PrivacyPolicy: React.FC = () => {
 
       <div className="space-y-6 text-sm sm:text-base leading-relaxed text-slate-600 dark:text-slate-400">
         <p>
-          This Privacy Policy outlines how <strong>2048 Game</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) handles your data when you visit our website or use our Google Chrome Extension.
+          This Privacy Policy outlines how <strong>Tile 2048</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) handles your data when you visit our website at{' '}
+          <a
+            href="https://tile2048.netlify.app/"
+            className="text-amber-500 hover:underline font-semibold"
+          >
+            https://tile2048.netlify.app/
+          </a>{' '}
+          or use our Google Chrome Extension.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-8">
@@ -80,21 +87,27 @@ export const PrivacyPolicy: React.FC = () => {
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white">2. Google Chrome Extension Privacy</h2>
           <p>
-            The 2048 Chrome Extension operates fully offline. It does not request access to your browsing history, web pages, or online accounts. Any permissions requested (such as <code className="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 font-mono text-xs">storage</code> and <code className="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 font-mono text-xs">contextMenus</code>) are used solely to let you launch and save the game inside the extension popup.
+            The Tile 2048 Chrome Extension operates fully offline. It does not request access to your browsing history, web pages, or online accounts. Any permissions requested (such as <code className="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 font-mono text-xs">storage</code> and <code className="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 font-mono text-xs">contextMenus</code>) are used solely to let you launch and save the game inside the extension popup.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white">3. Third-Party Services</h2>
           <p>
-            Our web application is statically hosted on Netlify. Netlify may process standard server access logs (such as IP addresses and request timestamps) strictly for security and abuse prevention. We do not integrate third-party analytics (such as Google Analytics) or advertising networks.
+            Our web application is statically hosted on Netlify at{' '}
+            <a
+              href="https://tile2048.netlify.app/"
+              className="text-amber-500 hover:underline font-semibold"
+            >
+              tile2048.netlify.app
+            </a>. Netlify may process standard server access logs (such as IP addresses and request timestamps) strictly for security and abuse prevention. We do not integrate third-party analytics (such as Google Analytics) or advertising networks.
           </p>
         </section>
 
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white">4. Contact Information</h2>
           <p>
-            If you have questions regarding this Privacy Policy or the 2048 game, you can reach out via GitHub at{' '}
+            If you have questions regarding this Privacy Policy or Tile 2048, you can reach out via GitHub at{' '}
             <a
               href="https://github.com/shoaibmarif"
               target="_blank"

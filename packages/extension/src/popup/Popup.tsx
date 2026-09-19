@@ -192,11 +192,11 @@ export const Popup: React.FC = () => {
         </button>
 
         <a
-          href="https://2048classic.netlify.app/"
+          href="https://tile2048.netlify.app/"
           target="_blank"
           rel="noreferrer"
           className="btn"
-          title="Open Full Web App"
+          title="Open Tile 2048 Web App"
         >
           <ExternalLink size={14} />
         </a>

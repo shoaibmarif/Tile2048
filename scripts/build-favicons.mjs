@@ -148,7 +148,7 @@ const ogHtmlContent = `<!DOCTYPE html>
 </head>
 <body>
   <div class="badge">Classic & Modern Puzzle</div>
-  <h1 class="title">2048 Game</h1>
+  <h1 class="title">Tile 2048</h1>
   <p class="subtitle">Join the numbers, get to the 2048 tile! Featuring AI hints, unlimited undo, customizable grids, and offline play.</p>
   <div class="tiles-row">
     <div class="tile" style="background:#edc22e;">2048</div>

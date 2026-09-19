@@ -18,7 +18,7 @@ export const NotFound: React.FC = () => {
         className="flex items-center gap-2 px-5 py-3 rounded-xl bg-amber-500 hover:bg-amber-600 active:scale-95 text-white font-bold text-sm shadow-md shadow-amber-500/20 transition-all"
       >
         <Home className="w-4 h-4" />
-        <span>Return to 2048 Game</span>
+        <span>Return to Tile 2048</span>
       </a>
     </div>
   );

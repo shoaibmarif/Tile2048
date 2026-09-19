@@ -255,7 +255,7 @@ export const App: React.FC = () => {
         <footer className="w-full py-6 px-4 border-t border-slate-200 dark:border-slate-800/80 text-center text-xs text-slate-500 dark:text-slate-400">
           <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
             <p>
-              © 2026 2048 Game by{' '}
+              © 2026 Tile 2048 by{' '}
               <a
                 href="https://shoaibarif.vercel.app/"
                 target="_blank"
@@ -292,7 +292,7 @@ export const App: React.FC = () => {
                 href="/"
                 className="text-amber-500 hover:underline font-semibold"
               >
-                Return to 2048 Game
+                Return to Tile 2048
               </a>
             </div>
           </div>
@@ -310,7 +310,7 @@ export const App: React.FC = () => {
         <footer className="w-full py-6 px-4 border-t border-slate-200 dark:border-slate-800/80 text-center text-xs text-slate-500 dark:text-slate-400">
           <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
             <p>
-              © 2026 2048 Game by{' '}
+              © 2026 Tile 2048 by{' '}
               <a
                 href="https://shoaibarif.vercel.app/"
                 target="_blank"
@@ -347,7 +347,7 @@ export const App: React.FC = () => {
                 href="/"
                 className="text-amber-500 hover:underline font-semibold"
               >
-                Return to 2048 Game
+                Return to Tile 2048
               </a>
             </div>
           </div>
@@ -404,7 +404,7 @@ export const App: React.FC = () => {
       <footer className="w-full py-6 px-4 border-t border-slate-200 dark:border-slate-800/80 text-center text-xs text-slate-500 dark:text-slate-400">
         <div className="max-w-lg mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <p>
-            © 2026 2048 Game by{' '}
+            © 2026 Tile 2048 by{' '}
             <a
               href="https://shoaibarif.vercel.app/"
               target="_blank"

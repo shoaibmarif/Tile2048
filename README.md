@@ -1,6 +1,6 @@
-# 2048 Game Monorepo
+# Tile 2048 Monorepo
 
-A production-ready, high-performance monorepo for the classic **2048** puzzle game, built following the Master Architecture & Boilerplate specification.
+A production-ready, high-performance monorepo for **Tile 2048** ([tile2048.netlify.app](https://tile2048.netlify.app/)), built following the Master Architecture & Boilerplate specification.
 
 ## Structure
 
